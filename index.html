@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chetan portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(85, 126, 113);
+            color: white;
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgb(32, 57, 49);
+            padding: 20px 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul a:hover {
+            color: rgb(106, 123, 118);
+            font-size: 1.03rem;
+        }
+
+        .firstsection {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 80px;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .firstsection > div {
+            width: 40%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            color: darkgrey;
+        }
+
+        .rightsection img {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .pink {
+            color: rgb(43, 77, 67);
+        }
+
+        #element {
+            color: rgb(43, 77, 67);
+        }
+
+        body {
+            background-repeat: no-repeat;
+            padding: 36px;
+            background-size: 100px 100px;
+            background-color: rgb(3, 14, 10);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: 70px 58px;
+            height: auto;
+            padding: 20px;
+            color: rgb(106, 119, 115);
+        }
+
+        .secondsection h1 {
+            text-align: center;
+            font-size: 1.9rem;
+            color: rgb(106, 119, 115);
+            margin: 27px;
+        }
+
+        main hr {
+            background-color: rgb(43, 77, 67);
+            width: auto;
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        .Experience {
+            text-align: center;
+            font-size: 2.2rem;
+            color: rgb(112, 167, 149);
+            padding-top: 20px;
+            text-align:start;
+        }
+
+        #skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            text-align: center;
+            color: rgb(106, 119, 115);
+        }
+
+      
+
+        .skills-column h2 {
+            font-size: -7rem;
+            margin-bottom: 12px;
+        }
+
+        .thirdsection {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 10;
+            padding: 0 20px;
+        }
+
+        .leftsection img {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px;
+        }
+
+        #contact {
+            padding: 44px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: rgb(32, 57, 49);
+            padding: 10px 0;
+            text-align: center;
+            color: aliceblue;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100vw;
+        }
+
+        footer a {
+            color: aliceblue;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: rgb(106, 123, 118);
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .skills-column {
+            
+            text-align: center;
+            line-height: 4rem;
+        }
+        .skills-column h3 {
+            color: rgb(56, 129, 107);
+        }
+
+        
+
+    .midle {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    color:  rgb(106, 119, 115);
+    font-size: 200%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+        .skills-column h2 {
+            color: rgb(106, 119, 115);
+
+        }
+
+        .skills-column h2,h3 {
+            text-align:start;
+
+        }
+
+        
+       
+
+        .stars {
+            color: rgb(139, 151, 147);
+            font-size: 1.5rem;
+            margin-left: 5px;
+        }
+
+        .rightsection {
+            text-align: left;
+            max-width: 60%;
+        }
+
+        .rightsection h2 {
+            color: rgb(106, 119, 115);
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .rightsection p {
+            color: rgb(62, 94, 81);
+            line-height: 1.6;
+            font-size: large;
+            text-transform: capitalize;
+        }
+
+        .cont h2 {
+            color: rgb(106, 119, 115);
+        }
+
+        .cont p {
+            color: rgb(62, 94, 81);
+            font-size: large;
+        }
+
+        footer p {
+            color: rgb(90, 142, 120);
+        }
+
+        .cont {
+            align-items: center;
+            padding-bottom: 0px;
+        }
+
+        @media (max-width: 768px) {
+            .firstsection {
+                flex-direction: column;
+                margin: 50px 0;
+            }
+
+            .firstsection > div {
+                width: 80%;
+                text-align: center;
+            }
+
+            .secondsection {
+                width: 90vw;
+                margin: 10px auto;
+                padding: 20px;
+            }
+
+            
+
+            .thirdsection {
+                flex-direction: column;
+            }
+           
+
+            .rightsection {
+                text-align: center;
+                max-width: 90%;
+            }
+        }
+    </style>
+    <link rel="icon" type="image/png" href="profile_circle.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Chetan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="home">
+            <section class="firstsection">
+                <div class="leftsection">
+                    Hi, my name is <span class="pink">Chetan</span> and
+                    <span id="element"></span>
+                </div>
+                <div class="rightsection">
+                    <img src="pngegg.png" alt="Chetan's image">
+                </div>
+            </section>
+        </div>
+        <!-- <hr> -->
+
+        <div id="experience">
+            <section class="secondsection">
+                <span class="gray">What I have done so far..!</span>
+                <h1>Work Experience/Internship</h1>
+                <div class="Experience">
+                    Software Development Intern KodNest Technologies, Bangalore January 2024 - Present
+                    Intern at KodNest, where acquired practical skills in Java, MySQL, Frontend Technology, Manual
+                    Testing, contributing to real-world projects and learning directly from industry professionals.
+                </div>
+            </section>
+        </div>
+        <!-- <hr> -->
+
+        <div class="midle"> Skillset</div>
+
+        <div id="skills">
+      
+            <section class="skills-column">
+
+              
+
+                <h2>Technical Skills</h2>
+                <h3>HTML: <span class="stars">★★★★★</span></h3>
+                <h3>CSS: <span class="stars">★★★★★</span></h3>
+                <h3>JavaScript: <span class="stars">★★★☆☆</span></h3>
+                <h3>JAVA: <span class="stars">★★★★☆</span></h3>
+                <h3>MySQL: <span class="stars">★★★★☆</span></h3>
+            </section>
+
+            <section class="skills-column">
+                <h2>Professional Skills</h2>
+                <h3>Communication: <span class="stars">★★★★★</span></h3>
+                <h3>Problem Solving: <span class="stars">★★★★☆</span></h3>
+                <h3>Teamwork: <span class="stars">★★★★☆</span></h3>
+                <h3>Emotional Intelligence: <span class="stars">★★★★★</span></h3>
+                <h3>Customer Service: <span class="stars">★★★★★</span></h3>
+            </section>
+        </div>
+        <!-- <hr> -->
+
+        <div id="about">
+            <section class="thirdsection">
+                <div class="leftsection">
+                    <img src="avtarrr.png" alt="Profile Photo">
+                </div>
+                <div class="rightsection">
+                    <h2>LET ME INTRODUCE MYSELF</h2>
+                    <p>
+                        Hello, my name is Chetan Patange, and I’m a full stack developer. With a 6 months of experience as Internship in web development, I have a strong command over both front-end and back-end technologies, allowing me to build complete and scalable applications.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <!-- <hr> -->
+
+        <div id="contact">
+            <section class="cont">
+                <h2>Contact Me</h2>
+                <p>Email: patangechetan05@gmail.com</p>
+                <p>Phone: +91 70269 68845</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/invites/contact/?igsh=eldg0dzx8ozm&utm_content=3zgjdjz" target="_blank">
+                        <img src="instagram-rounded-filled.svg" alt="Instagram">
+                    </a>
+                    <a href="https://github.com/chetanpatange59" target="_blank">
+                        <img src="github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/chetan-patange" target="_blank">
+                        <img src="linkedin.svg" alt="Linkedin">
+                    </a>
+                    <a href="https://x.com/ChetanP09" target="_blank">
+                        <img src="logos_14417709.png" alt="Twitter">
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Chetan. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' This is My Personal Portfolio..!'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
